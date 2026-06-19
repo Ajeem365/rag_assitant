@@ -1,15 +1,3 @@
-#!/usr/bin/env python3
-"""
-scripts/ingest_docs.py
-
-Standalone CLI script to ingest documents into ChromaDB.
-
-Usage:
-    python scripts/ingest_docs.py                          # ingest all files in /docs
-    python scripts/ingest_docs.py --dir path/to/docs
-    python scripts/ingest_docs.py --url https://example.com/readme.md
-    python scripts/ingest_docs.py --stats                  # show corpus stats
-"""
 import argparse
 import sys
 from pathlib import Path

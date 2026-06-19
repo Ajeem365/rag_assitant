@@ -1,24 +1,10 @@
-"""
-tests/test_api.py
-
-Test suite for the RAG Assistant API.
-Uses pytest + httpx AsyncClient for async endpoint testing.
-
-Run:
-    pytest tests/ -v
-"""
 from __future__ import annotations
 
 import pytest
 from httpx import AsyncClient, ASGITransport
 
 from app.main import app
-
-
-# ─────────────────────────────────────────────────────────────
 # Fixtures
-# ─────────────────────────────────────────────────────────────
-
 @pytest.fixture
 async def client():
     async with AsyncClient(

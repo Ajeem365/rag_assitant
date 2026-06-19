@@ -1,13 +1,3 @@
-#!/usr/bin/env python3
-"""
-scripts/example_requests.py
-
-Demonstrates all API endpoints with example requests.
-Run this AFTER starting the server: uvicorn app.main:app --reload
-
-Usage:
-    python scripts/example_requests.py
-"""
 import httpx
 import json
 

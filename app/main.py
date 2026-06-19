@@ -1,9 +1,3 @@
-"""
-app/main.py
-
-FastAPI application entry point.
-Handles startup (auto-ingest docs/), lifespan, CORS, and router mounting.
-"""
 from __future__ import annotations
 
 import os
