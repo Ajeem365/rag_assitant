@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # RAG Technical Documentation Assistant
 
 A **Retrieval-Augmented Generation** system with a self-corrective **LangGraph** workflow, served via **FastAPI**. Ask natural-language questions about technical documentation and get grounded, cited answers.
@@ -478,3 +479,7 @@ separators    = ["\n\n", "```", "\n", ". ", " ", ""]
 | Validation | Pydantic v2 | Type-safe, integrates with FastAPI |
 | Web search | Tavily | RAG-optimised, 1000 free searches/mo |
 | Testing | pytest + httpx | Async-compatible, minimal setup |
+=======
+# rag-assistant
+Self-corrective RAG system with LangGraph workflow, document grading, hallucination check &amp; FastAPI. Built with Groq + ChromaDB.
+>>>>>>> 2788a24e7ea81fb99a070207f60cb68a521045d5
