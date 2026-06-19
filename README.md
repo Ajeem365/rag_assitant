@@ -167,7 +167,7 @@ pip install -r requirements.txt
 ### 2. Configure environment
 
 ```bash
-cp .env.example .env
+cp .env.
 ```
 
 Open `.env` and set your API key:
